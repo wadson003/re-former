@@ -1,4 +1,4 @@
-# README
+# Ceci fait partie du projet Forms du programme Ruby on Rails de The Odin project. Vous le trouverez a l'adresse https://www.theodinproject.com
 
 This README would normally document whatever steps are necessary to get the
 application up and running.
