@@ -1,0 +1,24 @@
+<h1> Crer un nouvel utilisateur </h1>
+
+<%#= Votre ancien formulaire HTML commente ici%>
+
+<%= form_with model: @user do |form| %>
+
+
+    <div>
+        <%= form_label :username, "Votre nom d'utilisateur ici :" %>
+        <%= form.text_field :username, placeholder: "Ex: Wade" %>
+    </div>
+
+    <div>
+        <%= form_label :email, "Adresse e-mail :" %>
+        <%= form.email_field :email, placeholder: "exemple@gmail.com" %>
+    </div>
+
+    <div>
+        <%= form_label :password, "Mot de passe :" %>
+        <%= form.password_field :password%>
+    </div>
+
+    <%= form.submit "Creer l'utilisateur" %>
+<% end %>
